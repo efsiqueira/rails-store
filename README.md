@@ -1,9 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+Rails Store is an application learned in the Alura Rails Course
 
 * Ruby version 3.1.1
 
