@@ -5,20 +5,10 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version 3.1.1
 
-* System dependencies
+* Rails version 7.0.2
 
-* Configuration
+* Database sqlite3 and pg
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Deployment Heroku: https://railsrubystore.herokuapp.com/
