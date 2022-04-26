@@ -1,0 +1,19 @@
+<% @departamento.errors.full_messages.each do |msg| %>
+  <div class="alert alert-danger" role="alert">
+    <%= msg %>
+  </div>
+<% end %>
+
+<%= form_for @departamento do |form| %>
+  <div class="row">
+    <div class="col-sm-8">
+      <div class="form-group">
+        <%= form.label :nome %>
+        <%= form.text_field :nome, class:"form-control" %>
+      </div>
+    </div>
+  </div>
+
+  <%= form.submit texto_para_acao, class:"btn btn-primary" %>
+  <%= link_to "Voltar para departamentos", departamentos_path, class:"btn btn-default" %>
+<% end %>
