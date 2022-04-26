@@ -16,7 +16,7 @@
         <td><%= departamento.nome %></td>
         <td><%= link_to 'Mostrar produtos', departamento, class:"btn btn-default" %></td>
         <td><%= link_to 'Editar', edit_departamento_path(departamento), class:"btn btn-default" %></td>
-        <td><%= link_to 'Remover', departamento, method: :delete, data: { confirm: 'Tem certeza que deseja excluir?' }, class:"btn btn-danger" %></td>
+        <td><%= button_to "Remover", departamento, method: :delete, class:"btn btn-danger", data: { confirm: "Deseja realmente excluir o departamento #{departamento.nome}?" } %></td>
       </tr>
     <% end %>
   </tbody>
